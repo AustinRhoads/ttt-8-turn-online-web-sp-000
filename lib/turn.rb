@@ -7,7 +7,7 @@ if valid_move?(board, index) == true
   move(board, index, value = "X")
 else
   puts "Please enter 1-9:"
-  turn
+  turn(board)
 end
 end
 #display_board method
