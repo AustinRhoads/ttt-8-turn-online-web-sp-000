@@ -6,7 +6,7 @@ index = input_to_index(input)
 if valid_move?(board, index) == true
   move(board, index, value = "X")
 else
-  puts "I'm sorry that is not a valid move please try again."
+  puts "Please enter 1-9:"
   turn
 end
 end
